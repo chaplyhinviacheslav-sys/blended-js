@@ -99,18 +99,21 @@
 // то вивести в alert рядок "Добрий день!",
 // в іншому випадку вивести в alert рядок "Невірний пароль!"
 
-const login = prompt('Введіть логін:');
-
-if (login === 'Адмін') {
-  const password = prompt('Введіть пароль:');
-  if (password === 'Я головний') {
-    alert('Добрий день!');
-  } else {
-    alert('Невірний пароль!');
-  }
-} else {
-  alert('Я вас не знаю');
-}
+// const login = prompt('Введіть логін:');
+// console.log(login);
+// if (login === 'Адмін') {
+//   const password = prompt('Введіть пароль:');
+//   if (password === 'Я головний') {
+//     alert('Добрий день!');
+//   } else {
+//     alert('Невірний пароль!');
+//   }
+// } else if (login === '' || login === null) {
+//   alert('Скасовано');
+// }
+// else {
+//   alert('Я вас не знаю');
+// }
 
 // task 6
 
@@ -182,7 +185,7 @@ if (login === 'Адмін') {
 // }
 
 // console.log(isAdult(20)); // true
-// console.log(isAdult(17)); // залежить від відповіді користувача в confirm
+// console.log(isAdult(17));
 
 // task 10
 
@@ -199,10 +202,12 @@ if (login === 'Адмін') {
 //       console.log('fizz');
 //     } else if (i % 5 === 0) {
 //       console.log('buzz');
+//     } else {
+//       console.log(i);
 //     }
-//     }
+//   }
 // }
-  
+
 // fizzBuzz(15);
 
 
